@@ -1,6 +1,7 @@
 import React from "react";
 
-const ErrorPage = () => {
+const ErrorPage = (props) => {
+  console.log("error page", props);
   return (
     <div className="bg-red-900 min-h-screen flex items-center justify-center">
       <div className="bg-black rounded-lg shadow-lg p-8 m-4 max-w-sm w-full mx-auto">

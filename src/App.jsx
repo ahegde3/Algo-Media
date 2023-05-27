@@ -11,7 +11,6 @@ import {
   SearchFeed,
   Feed,
   Layout,
-  ErrorPage,
 } from "./components";
 import { loader as feedLoader } from "./components/Feed";
 import { loader as searchFeedLoader } from "./components/SearchFeed";
@@ -27,7 +26,6 @@ const router = createBrowserRouter(
         loader={searchFeedLoader}
         element={<SearchFeed />}
       />
-      <Route path="error/" element={ErrorPage} />
     </Route>
   )
 );
